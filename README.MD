@@ -1,11 +1,13 @@
-# Scala and Eclipse-Scala-IDE installation for Linux 
+## Scala and Eclipse-Scala-IDE installation for Linux 
 
-Painless install routine for scala 2.11.8, sbt 13.11, and eclipse ide. (Tested on Ubuntu 18.04 LTE.)
-* Bonus: suggested .gitignore file * 
+Painless install routine for Scala 2.11.8, sbt 13.11, and the Eclipse Scala-IDE. 
+*Bonus: suggested .gitignore file* 
+
+Tested on Ubuntu 18.04 LTE.
 
 ### Prerequisites 
 
-First make sure you've installed an appropriate **Java _8_ SDK** (e.g. OpenJDK) by opening a terminal and running 
+First make sure you've installed an appropriate **Java 8 SDK** (e.g. OpenJDK) by opening a terminal and running 
 
 ```
 java -version
@@ -35,11 +37,16 @@ sudo apt-get install sbt
 
 ### Install Eclipse Scala-IDE and setup a project
 
-Get a fresh Eclipse-IDE, one **that suits your Scala version (here 2.11.8)** (see http://scala-ide.org/download/prev-stable.html).
+Get a fresh Eclipse-IDE, **one that suits your Scala version (here 2.11.8)** 
+- see http://scala-ide.org/download/prev-stable.html for your needed eclipse
+- here, we go for Eclipse Oxigen: https://www.eclipse.org/downloads/packages/release/oxygen/3a 
+- This was tested on the vanilla Oxigen version: https://www.eclipse.org/downloads/packages/release/oxygen/3a/eclipse-ide-java-developers
+
+After Extracting Eclipse, we can go ahead and create a Scala project.
 
 *Tip: create a dedicated Eclipse workspace for your Scala projects.*
 
-To create a new Scala project, navigate to that workspace and run 
+To create a new Scala project, navigate to your workspace and run 
 
 ```
 sbt new scala/hello-world.g8
