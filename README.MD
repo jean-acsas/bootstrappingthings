@@ -1,3 +1,17 @@
+- [Scala and Eclipse-Scala-IDE installation for Linux](#scala-and-eclipse-scala-ide-installation-for-linux)
+  * [Prerequisites](#prerequisites)
+  * [Install Scala 2.11.8](#install-scala-2118)
+  * [Install sbt 13.11:](#install-sbt-1311-)
+  * [Install Eclipse Scala-IDE and setup a project](#install-eclipse-scala-ide-and-setup-a-project)
+  * [Troubleshooting](#troubleshooting)
+  * [Misc](#misc)
+- [Bootstrapping a NodeJS, Bootstrap and jQuery Project from Scratch](#bootstrapping-a-nodejs--bootstrap-and-jquery-project-from-scratch)
+  * [Getting NodeJS and the Node Package manacher (npm)](#getting-nodejs-and-the-node-package-manacher--npm-)
+  * [Creating a bare bone project and deploying it on lite-server](#creating-a-bare-bone-project-and-deploying-it-on-lite-server)
+  * [Adding Bootstrap and jQuery for ze eye candy](#adding-bootstrap-and-jquery-for-ze-eye-candy)
+
+
+
 ## Scala and Eclipse-Scala-IDE installation for Linux
 
 Painless install routine for Scala 2.11.8, sbt 13.11, and the Eclipse Scala-IDE.
