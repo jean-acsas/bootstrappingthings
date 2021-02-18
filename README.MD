@@ -1,7 +1,12 @@
-## Content
+# Content
 
 - [Scala and Eclipse-Scala-IDE installation for Linux](#scala-and-eclipse-scala-ide-installation-for-linux)
 - [Bootstrapping a NodeJS, Bootstrap and jQuery Project from Scratch](#bootstrapping-a-nodejs--bootstrap-and-jquery-project-from-scratch)
+
+-------
+
+
+
 
 
 ## Scala and Eclipse-Scala-IDE installation for Linux
