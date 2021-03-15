@@ -1,7 +1,8 @@
 # Content
 
 - [Scala and Eclipse-Scala-IDE installation for Linux](#scala-and-eclipse-scala-ide-installation-for-linux)
-- [Bootstrapping a NodeJS, Bootstrap and jQuery Project from Scratch](#bootstrapping-a-nodejs--bootstrap-and-jquery-project-from-scratch)
+- [Bootstrapping a NodeJS, Bootstrap and jQuery Project from Scratch](#bootstrapping-a-nodejs-bootstrap-and-jquery-project-from-scratch)
+- [Quick-setup for Selenium/WebDriver in Python (Firefox)](#quick-setup-for-selenium-webdriver-in-python-(firefox))
 
 -------
 
@@ -248,4 +249,6 @@ browser = webdriver.Firefox()
 browser.get('https://www.duckduckgo.com/')
 ```
 
-See the [WebDriver API](https://selenium-python.readthedocs.io/api.html) for navigation etc.
+Docs:
+- [WebDriver API](https://selenium-python.readthedocs.io/api.html)
+- [Official docs](https://www.selenium.dev/selenium/docs/api/py/api.html)
