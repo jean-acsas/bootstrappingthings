@@ -7,8 +7,6 @@
 
 
 
-
-
 ## Scala and Eclipse-Scala-IDE installation for Linux
 
 Painless install routine for Scala 2.11.8, sbt 13.11, and the Eclipse Scala-IDE.
@@ -229,3 +227,25 @@ npm start
 ```
 Thats it.
 You can now start developing your web application using Bootstrap and jQuery by adding code to your `index.html`. Saved changes will be instantly visible at http://localhost:3000/.
+
+
+
+## Quick-setup for Selenium/WebDriver in Python (Firefox)
+
+Make sure Firefox is installed.
+
+- Download [geckodriver for Firefox](https://github.com/mozilla/geckodriver/releases) which is necessary to control your browser programmatically/remotely
+- Copy said geckodriver to `/usr/local/bin`
+
+Get started with this minimal code snippet:
+
+```python3
+from selenium import webdriver
+
+browser = webdriver.Firefox()
+
+# go somewhere
+browser.get('https://www.duckduckgo.com/')
+```
+
+See the [WebDriver API](https://selenium-python.readthedocs.io/api.html) for navigation etc.
