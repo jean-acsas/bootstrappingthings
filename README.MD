@@ -2,7 +2,7 @@
 
 - [Scala and Eclipse-Scala-IDE installation for Linux](#scala-and-eclipse-scala-ide-installation-for-linux)
 - [Bootstrapping a NodeJS, Bootstrap and jQuery Project from Scratch](#bootstrapping-a-nodejs-bootstrap-and-jquery-project-from-scratch)
-- [Quick-setup for Selenium/WebDriver in Python (Firefox)](#quick-setup-for-selenium-webdriver-in-python-(firefox))
+- [Minimal Selenium/WebDriver setup in Python (Firefox)](#minimal-seleniumwebdriver-setup-in-python-firefox)
 
 -------
 
