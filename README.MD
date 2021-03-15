@@ -231,7 +231,7 @@ You can now start developing your web application using Bootstrap and jQuery by 
 
 
 
-## Quick-setup for Selenium/WebDriver in Python (Firefox)
+## Minimal Selenium/WebDriver setup in Python (Firefox)
 
 Make sure Firefox is installed.
 
