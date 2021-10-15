@@ -256,7 +256,7 @@ Docs:
 
 ## Install VSCode extensions in VSCodium 
 
-Sometimes you'll find VSCode extensions not (yet) listed in the VSCodium extension store.
+Sometimes you'll find VSCode extensions not (yet) listed in the VSCodium extensions store.
 In this case:
 
 - Head over to the [VSCode marketplace](https://marketplace.visualstudio.com/VSCode).
@@ -264,6 +264,6 @@ In this case:
 - `cd` to the downloaded .vsix and install it: 
 
 ```bash
-codium --install-extension myextension.vsix
+codium --install-extension the-extension.vsix
 ```
 For more info see the relevant section of the [VSCodium docs](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace).
