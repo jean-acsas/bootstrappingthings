@@ -3,6 +3,7 @@
 - [Scala and Eclipse-Scala-IDE installation for Linux](#scala-and-eclipse-scala-ide-installation-for-linux)
 - [Bootstrapping a NodeJS, Bootstrap and jQuery Project from Scratch](#bootstrapping-a-nodejs-bootstrap-and-jquery-project-from-scratch)
 - [Minimal Selenium/WebDriver setup in Python (Firefox)](#minimal-seleniumwebdriver-setup-in-python-firefox)
+- [Install VSCode extensions in VSCodium](#install-vscode-extensions-in-vscodium)
 
 -------
 
@@ -252,3 +253,17 @@ browser.get('https://www.duckduckgo.com/')
 Docs:
 - [WebDriver API](https://selenium-python.readthedocs.io/api.html)
 - [Official docs](https://www.selenium.dev/selenium/docs/api/py/api.html)
+
+## Install VSCode extensions in VSCodium 
+
+Sometimes you'll find VSCode extensions not (yet) listed in the VSCodium extension store.
+In this case:
+
+- Head over to the [VSCode marketplace](https://marketplace.visualstudio.com/VSCode).
+- Download the extensions .vsix file. For this, search the marketplace for your extension and look for "Download Extension" or look at the extensions github page linked there.
+- `cd` to the downloaded .vsix and install it: 
+
+```bash
+codium --install-extension myextension.vsix
+```
+For more info see the relevant section of the [VSCodium docs](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace).
