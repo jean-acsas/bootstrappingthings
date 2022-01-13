@@ -104,7 +104,7 @@ For a suggested `.gitignore`, see the attached file.
 We need only a few steps to bring your web development environment up and running.
 For super quick prototyping, we will use [lite-server](https://www.npmjs.com/package/light-server), a super lightweight cli-based http server that features livereload.
 
-### Getting NodeJS and the Node Package manacher (npm)
+### Getting NodeJS and npm
 
 If your on a Windows machine, then you should head over to https://www.debian.org/ or http://ubuntu.com/ and install a proper operating system. Just kidding. This tutorial assumes you are using either a Linux machine or a Mac, so we have access to a built in package-manager.
 
