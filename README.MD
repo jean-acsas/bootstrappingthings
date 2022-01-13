@@ -266,4 +266,4 @@ In this case:
 ```bash
 codium --install-extension the-extension.vsix
 ```
-For more info see the relevant section of the [VSCodium docs](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace).
+For more info see the [relevant section of the VSCodium docs](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#extensions-marketplace).
